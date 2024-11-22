@@ -1,0 +1,70 @@
+div.card {
+  max-width: 335px;
+  padding: 5.2rem;
+  display: grid;
+  gap: 2.4rem;
+
+  h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-weight: 400;
+    line-height: 170%;
+    color: var(--transparent-white);
+  }
+
+  button {
+    max-width: 65%;
+    padding: 1rem 1.2rem;
+    font-weight: 600;
+    border-radius: 60px;
+    border: 2px solid var(--white);
+    cursor: pointer;
+    transition: 
+      background-color 0.5s ease,
+      color 0.5s ease;
+  }
+
+  button:hover {
+    background-color: transparent;
+    color: var(--white);
+  }
+}
+
+/* SPECIFIC STYLES */
+
+div.sedans {
+  border-radius: 0.8rem 0.8rem 0 0;
+  background-color: var(--bright-orange);
+
+  button {
+    color: var(--bright-orange);
+  }
+}
+
+div.suvs {
+  background-color: var(--dark-cyan);
+
+  button {
+    color: var(--dark-cyan);
+  }
+}
+
+div.luxury {
+  border-radius: 0 0 0.8rem 0.8rem;
+  background-color: var(--very-dark-cyan);
+
+  button {
+    color: var(--very-dark-cyan);
+  }
+}
+
+ /* DESKTOP */
+@media screen and (min-width: 1280px) {
+  div.card {
+
+  }
+}
