@@ -63,8 +63,31 @@ div.luxury {
 }
 
  /* DESKTOP */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1080px) {
   div.card {
+    button {
+      margin-top: 4rem;
+    }
+  }
 
+  div.sedans {
+    border-radius: 0.8rem 0 0 0.8rem;
+    background-color: var(--bright-orange);
+  
+    button {
+      color: var(--bright-orange);
+    }
+  }
+  
+  div.suvs {
+    background-color: var(--dark-cyan);
+  
+    button {
+      color: var(--dark-cyan);
+    }
+  }
+  
+  div.luxury {
+    border-radius: 0 0.8rem 0.8rem 0;
   }
 }

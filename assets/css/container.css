@@ -1,0 +1,9 @@
+main.container {
+  display: grid;
+}
+
+@media screen and (min-width: 1080px) {
+  main.container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
