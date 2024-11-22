@@ -4,7 +4,7 @@ div.card {
   display: grid;
   gap: 2.4rem;
 
-  h2 {
+  div.title {
     font-family: "Big Shoulders Display", sans-serif;
     font-size: 4rem;
     text-transform: uppercase;
